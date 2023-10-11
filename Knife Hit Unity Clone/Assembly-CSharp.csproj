@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{0DD193DF-4B94-A7F6-08E5-198C8706E235}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_2_0;UNITY_2017_2;UNITY_2017;UNITY_PURCHASING;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;PLATFORM_WEBGL;UNITY_WEBGL;UNITY_WEBGL_API;UNITY_DISABLE_WEB_VERIFICATION;UNITY_GFX_USE_PLATFORM_VSYNC;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_SPATIALTRACKING;ENABLE_IL2CPP;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;IAP</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>F:/2017.2.0f2/Editor/Data/Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>F:/2017.2.0f2/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\KnifeHit\GoogleMobileAds\Api\AdFailedToLoadEventArgs.cs" />
+     <Compile Include="Assets\KnifeHit\GoogleMobileAds\Api\AdLoader.cs" />
+     <Compile Include="Assets\KnifeHit\GoogleMobileAds\Api\AdPosition.cs" />
+     <Compile Include="Assets\KnifeHit\GoogleMobileAds\Api\AdRequest.cs" />
+     <Compile Include="Assets\KnifeHit\GoogleMobileAds\Api\AdSize.cs" />
+     <Compile Include="Assets\KnifeHit\GoogleMobileAds\Api\BannerView.cs" />
+     <Compile Include="Assets\KnifeHit\GoogleMobileAds\Api\CustomNativeEventArgs.cs" />
+     <Compile Include="Assets\KnifeHit\GoogleMobileAds\Api\CustomNativeTemplateAd.cs" />
+     <Compile Include="Assets\KnifeHit\GoogleMobileAds\Api\Gender.cs" />
+     <Compile Include="Assets\KnifeHit\GoogleMobileAds\Api\InterstitialAd.cs" />
+     <Compile Include="Assets\KnifeHit\GoogleMobileAds\Api\Mediation\MediationExtras.cs" />
+     <Compile Include="Assets\KnifeHit\GoogleMobileAds\Api\NativeExpressAdView.cs" />
+     <Compile Include="Assets\KnifeHit\GoogleMobileAds\Api\Reward.cs" />
+     <Compile Include="Assets\KnifeHit\GoogleMobileAds\Api\RewardBasedVideoAd.cs" />
+     <Compile Include="Assets\KnifeHit\GoogleMobileAds\Common\DummyClient.cs" />
+     <Compile Include="Assets\KnifeHit\GoogleMobileAds\Common\IAdLoaderClient.cs" />
+     <Compile Include="Assets\KnifeHit\GoogleMobileAds\Common\IBannerClient.cs" />
+     <Compile Include="Assets\KnifeHit\GoogleMobileAds\Common\ICustomNativeTemplateClient.cs" />
+     <Compile Include="Assets\KnifeHit\GoogleMobileAds\Common\IInterstitialClient.cs" />
+     <Compile Include="Assets\KnifeHit\GoogleMobileAds\Common\INativeExpressAdClient.cs" />
+     <Compile Include="Assets\KnifeHit\GoogleMobileAds\Common\IRewardBasedVideoAdClient.cs" />
+     <Compile Include="Assets\KnifeHit\GoogleMobileAds\Common\SimpleJSON.cs" />
+     <Compile Include="Assets\KnifeHit\GoogleMobileAds\Common\Utils.cs" />
+     <Compile Include="Assets\KnifeHit\GoogleMobileAds\Platforms\Android\AdLoaderClient.cs" />
+     <Compile Include="Assets\KnifeHit\GoogleMobileAds\Platforms\Android\BannerClient.cs" />
+     <Compile Include="Assets\KnifeHit\GoogleMobileAds\Platforms\Android\CustomNativeTemplateClient.cs" />
+     <Compile Include="Assets\KnifeHit\GoogleMobileAds\Platforms\Android\InterstitialClient.cs" />
+     <Compile Include="Assets\KnifeHit\GoogleMobileAds\Platforms\Android\NativeExpressAdClient.cs" />
+     <Compile Include="Assets\KnifeHit\GoogleMobileAds\Platforms\Android\RewardBasedVideoAdClient.cs" />
+     <Compile Include="Assets\KnifeHit\GoogleMobileAds\Platforms\Android\Utils.cs" />
+     <Compile Include="Assets\KnifeHit\GoogleMobileAds\Platforms\GoogleMobileAdsClientFactory.cs" />
+     <Compile Include="Assets\KnifeHit\GoogleMobileAds\Platforms\iOS\AdLoaderClient.cs" />
+     <Compile Include="Assets\KnifeHit\GoogleMobileAds\Platforms\iOS\BannerClient.cs" />
+     <Compile Include="Assets\KnifeHit\GoogleMobileAds\Platforms\iOS\CustomNativeTemplateClient.cs" />
+     <Compile Include="Assets\KnifeHit\GoogleMobileAds\Platforms\iOS\Externs.cs" />
+     <Compile Include="Assets\KnifeHit\GoogleMobileAds\Platforms\iOS\InterstitialClient.cs" />
+     <Compile Include="Assets\KnifeHit\GoogleMobileAds\Platforms\iOS\MonoPInvokeCallbackAttribute.cs" />
+     <Compile Include="Assets\KnifeHit\GoogleMobileAds\Platforms\iOS\NativeExpressAdClient.cs" />
+     <Compile Include="Assets\KnifeHit\GoogleMobileAds\Platforms\iOS\RewardBasedVideoAdClient.cs" />
+     <Compile Include="Assets\KnifeHit\GoogleMobileAds\Platforms\iOS\Utils.cs" />
+     <Compile Include="Assets\KnifeHit\MyCombo\AdmobController.cs" />
+     <Compile Include="Assets\KnifeHit\MyCombo\BaseController.cs" />
+     <Compile Include="Assets\KnifeHit\MyCombo\CurrencyController.cs" />
+     <Compile Include="Assets\KnifeHit\MyCombo\CUtils.cs" />
+     <Compile Include="Assets\KnifeHit\MyCombo\Dialog.cs" />
+     <Compile Include="Assets\KnifeHit\MyCombo\DialogController.cs" />
+     <Compile Include="Assets\KnifeHit\MyCombo\DialogOverlay.cs" />
+     <Compile Include="Assets\KnifeHit\MyCombo\GameConfig.cs" />
+     <Compile Include="Assets\KnifeHit\MyCombo\GameMaster.cs" />
+     <Compile Include="Assets\KnifeHit\MyCombo\Gtil.cs" />
+     <Compile Include="Assets\KnifeHit\MyCombo\JobWorker.cs" />
+     <Compile Include="Assets\KnifeHit\MyCombo\LT\LeanAudio.cs" />
+     <Compile Include="Assets\KnifeHit\MyCombo\LT\LeanTest.cs" />
+     <Compile Include="Assets\KnifeHit\MyCombo\LT\LeanTween.cs" />
+     <Compile Include="Assets\KnifeHit\MyCombo\LT\LTDescr.cs" />
+     <Compile Include="Assets\KnifeHit\MyCombo\LT\LTDescrOptional.cs" />
+     <Compile Include="Assets\KnifeHit\MyCombo\LT\LTSeq.cs" />
+     <Compile Include="Assets\KnifeHit\MyCombo\MobileNativeShare\MobileNativeShare.cs" />
+     <Compile Include="Assets\KnifeHit\MyCombo\MobileNativeShare\Platforms\AndroidNativeShare.cs" />
+     <Compile Include="Assets\KnifeHit\MyCombo\MobileNativeShare\Platforms\iOSNativeShare.cs" />
+     <Compile Include="Assets\KnifeHit\MyCombo\Music.cs" />
+     <Compile Include="Assets\KnifeHit\MyCombo\Purchaser.cs" />
+     <Compile Include="Assets\KnifeHit\MyCombo\RewardedVideoButton.cs" />
+     <Compile Include="Assets\KnifeHit\MyCombo\RewardedVideoCallBack.cs" />
+     <Compile Include="Assets\KnifeHit\MyCombo\RewardedVideoGroup.cs" />
+     <Compile Include="Assets\KnifeHit\MyCombo\ScreenFader\ScreenFader.cs" />
+     <Compile Include="Assets\KnifeHit\MyCombo\SellReadMe.cs" />
+     <Compile Include="Assets\KnifeHit\MyCombo\ShopDialog.cs" />
+     <Compile Include="Assets\KnifeHit\MyCombo\Sound.cs" />
+     <Compile Include="Assets\KnifeHit\MyCombo\Timer.cs" />
+     <Compile Include="Assets\KnifeHit\MyCombo\TimerText.cs" />
+     <Compile Include="Assets\KnifeHit\MyCombo\Toast\Toast.cs" />
+     <Compile Include="Assets\KnifeHit\MyCombo\YesNoDialog.cs" />
+     <Compile Include="Assets\KnifeHit\Script\Apple.cs" />
+     <Compile Include="Assets\KnifeHit\Script\Circle.cs" />
+     <Compile Include="Assets\KnifeHit\Script\GameController.cs" />
+     <Compile Include="Assets\KnifeHit\Script\GameManager.cs" />
+     <Compile Include="Assets\KnifeHit\Script\GamePlayManager.cs" />
+     <Compile Include="Assets\KnifeHit\Script\GeneralFunction.cs" />
+     <Compile Include="Assets\KnifeHit\Script\HomeController.cs" />
+     <Compile Include="Assets\KnifeHit\Script\Knife.cs" />
+     <Compile Include="Assets\KnifeHit\Script\KnifeCounter.cs" />
+     <Compile Include="Assets\KnifeHit\Script\KnifeShop.cs" />
+     <Compile Include="Assets\KnifeHit\Script\MainMenu.cs" />
+     <Compile Include="Assets\KnifeHit\Script\SettingUI.cs" />
+     <Compile Include="Assets\KnifeHit\Script\ShopItem.cs" />
+     <Compile Include="Assets\KnifeHit\Script\SoundManager.cs" />
+     <None Include="Assets\KnifeHit\PlayServicesResolver\proguard-messaging-workaround.txt" />
+     <None Include="Assets\KnifeHit\PlayServicesResolver\proguard-unity.txt" />
+     <None Include="Assets\KnifeHit\PlayServicesResolver\Editor\play-services-resolver.txt" />
+     <None Include="Assets\Plugins\UnityPurchasing\script\link.xml" />
+     <None Include="Assets\Plugins\Android\GoogleMobileAdsPlugin\AndroidManifest.xml" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>F:/2017.2.0f2/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>F:/2017.2.0f2/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>F:/2017.2.0f2/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>F:/2017.2.0f2/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>F:/2017.2.0f2/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIAutomation">
+ <HintPath>F:/2017.2.0f2/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GoogleAudioSpatializer">
+ <HintPath>F:/2017.2.0f2/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>F:/2017.2.0f2/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>F:/2017.2.0f2/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="ChannelPurchase">
+ <HintPath>E:/Knife Hit Unity Clone/Assets/Plugins/UnityChannel/ChannelPurchase.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityStore">
+ <HintPath>E:/Knife Hit Unity Clone/Assets/Plugins/UnityChannel/UnityStore.dll</HintPath>
+ </Reference>
+ <Reference Include="Editor">
+ <HintPath>E:/Knife Hit Unity Clone/Assets/Plugins/UnityPurchasing/Bin/Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Purchasing.Common">
+ <HintPath>E:/Knife Hit Unity Clone/Assets/Plugins/UnityPurchasing/Bin/Purchasing.Common.dll</HintPath>
+ </Reference>
+ <Reference Include="Stores">
+ <HintPath>E:/Knife Hit Unity Clone/Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
+ </Reference>
+ <Reference Include="Apple">
+ <HintPath>E:/Knife Hit Unity Clone/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
+ </Reference>
+ <Reference Include="FacebookStore">
+ <HintPath>E:/Knife Hit Unity Clone/Assets/Plugins/UnityPurchasing/Bin/Facebook/FacebookStore.dll</HintPath>
+ </Reference>
+ <Reference Include="Security">
+ <HintPath>E:/Knife Hit Unity Clone/Assets/Plugins/UnityPurchasing/Bin/Security/live/Security.dll</HintPath>
+ </Reference>
+ <Reference Include="Tizen">
+ <HintPath>E:/Knife Hit Unity Clone/Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll</HintPath>
+ </Reference>
+ <Reference Include="winrt">
+ <HintPath>E:/Knife Hit Unity Clone/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>C:/Users/Имрон/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@1.0.1/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Users/Имрон/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>C:/Users/Имрон/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{6066753F-C8F6-C900-7C97-8983115DF357}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
